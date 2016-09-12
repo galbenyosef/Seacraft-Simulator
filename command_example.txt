@@ -1,0 +1,15 @@
+create Ajax Cruiser (15.00, 15.00) 6 1
+create Emma Freighter (30.00, 30.00) 1000 8
+create Xerxes Cruiser (25.00, 25.00) 6 2
+show
+create Colombo Freighter (-5.0 20.0) 1000 8
+Colombo destination Yokohama 10
+Emma load_at PearlHarbor
+Emma dock_at PearlHarbor
+Emma unload_at Valdez 100
+Emma destination PearlHarbor 10
+Ajax course 180 20
+Xerxes course 270 20
+go
+show
+status
